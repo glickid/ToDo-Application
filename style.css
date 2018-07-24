@@ -1,0 +1,43 @@
+/* Styles go here */
+
+.checked {
+  text-decoration: Line-Through;
+}
+
+input[type="checkbox"] {
+  vertical-align: center;
+  width: 15px;
+  float : left;
+}
+
+label {
+  display:inline-block;
+  width: 300px;
+  word-break: break-all; 
+}
+
+i, .hide {
+  transform:translate(9999px);
+  opacity: 0;
+}
+
+ul li div:hover i {
+  transition: opacity 1s linear;
+  transform:translate(0);
+  opacity: 1 !important;
+}
+
+.popup
+{
+    position:absolute;
+    display:block;
+    top:-23px;
+    background-color: yellow;
+    width:500px; 
+    border: 5px solid blue; 
+    padding:20px;
+}
+
+.width-100 {
+  width : 100% !important;
+}
